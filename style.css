@@ -9,19 +9,20 @@ header{
     background-image: url(img/pattern.png);
     background-color:royalblue;
     background-size: auto 250px;
-    height: 100px;
+    height: 100px;/* 
     margin-right: 20%;
-    margin-left: 20%;
+    margin-left: 20%; */
 }
 
 main{
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .logo{
     width: 175px;
     padding: 40px 5px 5px;
+    margin-left: 10.5%;
 }
 
 .credits{
@@ -31,6 +32,8 @@ main{
 
 h1{
     margin-left: 10px;
+    margin-top: 10px;
+    font-size: 40px;
 }
 
 #author{
@@ -46,13 +49,13 @@ h1{
 #pics-tim1{
     margin-left: 10px;
     width: 45%;
-    height: 250px;
+    height: 300px;
 }
 
 #pics-tim2{
     margin-right: 10px;
     width: 45%;
-    height: 250px;
+    height: 300px;
 }
 
 #photo-credits{
@@ -78,12 +81,22 @@ table{
     border-collapse: collapse;
 }
 
+thead{
+    white-space: nowrap;
+    text-align: left;
+}
+
 th{
-    padding-right: 80px;
+    padding-right: 70px;
     height: 30px;
     background-color: royalblue;
     color: white;
     font-size: 15px;
+    margin
+}
+
+#th{
+    margin-right: 10%;
 }
 
 td{
@@ -105,8 +118,8 @@ td{
 }
 
 footer{
-    margin-left: 20.6%;
-    margin-right: 20%;
+    margin-left: 10.6%;
+    margin-right: 10%;
 }
 
 #recommended{
@@ -125,7 +138,7 @@ footer{
 
 #graphpic{
     color: black;
-    margin-bottom: 35px;
+    margin-bottom: 10%;
     background-image: url(img/graph.jpg);
     background-size: cover;
     height: 150px;
